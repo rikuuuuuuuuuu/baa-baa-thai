@@ -1,0 +1,75 @@
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+    <title>About Us</title>
+    <link href="fooki-css\about\career.css" rel="stylesheet" type="text/css">
+</head>
+
+<!--Nav Bar-->
+<body>
+    <nav class="navbar">
+        <a href="#" class="logo">Baa Baa</a>
+        <div class="nav-links">
+            <a href="baa-baa home (kyle).html">Home</a>
+            <a href="baa-baa about (franco).html">About</a>
+            <a href="baa-baa menu (yuan, raph, joswen).html">Menu</a>
+        </div>
+    </nav>
+
+<div class="container">
+    <h1>CAREERS</h1>
+    <div class="form-container">
+        <img src="imgs\AboutusImages\sample pic.png" alt="Person with drink" class="promo-image">
+        <form action="#" method="post" enctype="multipart/form-data">
+            <div class="form-group">
+                <label for="first-name">First Name:</label>
+                <input type="text" id="first-name" name="first-name" required>
+            </div>
+            <div class="form-group">
+                <label for="middle-name">Middle Name:</label>
+                <input type="text" id="middle-name" name="middle-name">
+            </div>
+            <div class="form-group">
+                <label for="last-name">Last Name:</label>
+                <input type="text" id="last-name" name="last-name" required>
+            </div>
+            <div class="form-group">
+                <label for="address">Address:</label>
+                <input type="text" id="address" name="address" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="contact">Contact Number:</label>
+                <input type="tel" id="contact" name="contact" required>
+            </div>
+            <div class="form-group">
+                <label for="position">Applying for Position:</label>
+                <select id="position" name="position">
+                    <option value="barista">Barista</option>
+                    <option value="cashier">Cashier</option>
+                    <option value="manager">Manager</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="resume">Upload Resume:</label>
+                <input type="file" id="resume" name="resume" required>
+            </div>
+            <div class="form-group captcha">
+                <label>Please prove you are human by selecting the heart:</label>
+                <div class="captcha-options">
+                    <input type="radio" id="heart" name="captcha" value="heart" required>
+                    <label for="heart">❤️</label>
+                    <input type="radio" id="truck" name="captcha" value="truck">
+                    <label for="truck">🚚</label>
+                    <input type="radio" id="flower" name="captcha" value="flower">
+                    <label for="flower">🌸</label>
+                </div>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</div>
+</body>

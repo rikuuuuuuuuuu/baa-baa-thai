@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+css body { font-family: 'Poppins', sans-serif; background-color: white; color: #4B0082; /* Dark purple for text */ margin: 0; padding: 0; }
+header { background-color: #6A5ACD; /* Slate blue for header */ color: white; text-align: center; padding: 20px 0;}
+
+h2 { text-align: center; color: #6A5ACD;}
+
+.menu { display: flex; flex-wrap: wrap; justify-content: center; padding: 20px; gap: 20px; }
+
+.product { background-color: #E6E6FA; text-align: center;/* Lavender for product background / border: 2px solid #9370DB; / Medium purple for border / border-radius: 10px; padding: 15px; text-align: center; width: 200px; / Fixed width for uniformity */ box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); transition: transform 0.2s; }
+
+.product:hover { transform: scale(1.05); /* Slight zoom effect on hover */ }
+
+.product img { max-width: 100%; border-radius: 20px; margin: 20px;}
+
+img { width: 200; height:auto;}
+
+h4 { text-align: center; color: #4B0082; /* Dark purple for product titles */ margin: 10px 0; }
+
+h5 {text-align: center; color: #4B0082; /* Dark purple for product titles */ margin: 10px 0;}
+
+.price { color: #8A2BE2; /* Blue violet for prices */ margin: 5px 0; }
+
+
+button {  background-color: #9370DB; /* Medium purple for buttons */ color: white; border: none; border-radius: 5px; padding: 10px 15px; cursor: pointer; transition: background-color 0.3s; }
+
+
+
+button:hover { background-color: #6A5ACD; /* Darker purple on hover */ }
+

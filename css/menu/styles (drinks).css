@@ -49,12 +49,14 @@ h1 {
     overflow: hidden;
 }
 
+
 .menu-item img {
     width: 40%;
     border-radius: 8px;
     margin-bottom: 10px;
     align-self: left;
 }
+
 
 .menu-item .name h2 {
     font-family: "Poppins";
@@ -73,13 +75,12 @@ h1 {
     font-size: 1rem;
     font-family: "Poppins";
     color: #555;
-    margin-top: 0;
     text-align: justify; 
     width: 60%; 
     position: absolute;
-    top: 0px;
+    top: 100px;
     right: 10px; 
-    bottom: 150px; 
+    bottom: 80px;
 }
 
 .menu-item p {
@@ -88,7 +89,8 @@ h1 {
     margin: 10px 0;
     color: #555;
     position: absolute;
-    bottom: 60px;
+    bottom: 50px;
+    top: 0px;
 }
 
 .menu-item button {
@@ -105,4 +107,138 @@ h1 {
 .menu-item button:hover {
     background-color: #ac7ceb;
     color: black;
+}
+
+.menu-item .price {
+    font-size: 1rem;
+    font-family: "Poppins";
+    color: #555;
+    margin-top: auto;
+    width: 40%;
+    text-align: left;  
+    position: absolute;
+    bottom: 0px;
+    top: 320px;
+}
+
+.menu-item2 {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px #604484;
+    padding: 10px;
+    text-align: center;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 350px;
+    position: relative;
+    overflow: hidden;
+}
+
+.menu-item2 img {
+    width: 35%;
+    height: 219px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    align-self: left;
+}
+
+.menu-item2 .name h2 {
+    font-family: "Poppins";
+    color: #604484;
+    margin-top: 0; 
+    width: 60%; 
+    text-align: left;
+    position: absolute;
+    top: 40px;
+    right: 10px; 
+    bottom: 0; 
+}
+
+
+.menu-item2 .description {
+    font-size: 1rem;
+    font-family: "Poppins";
+    color: #555;
+    text-align: justify; 
+    width: 60%; 
+    position: absolute;
+    top: 100px;
+    right: 10px; 
+    bottom: 80px;
+}
+
+.menu-item2 p {
+    font-size: 0.9rem;
+    font-family: "Poppins";
+    margin: 10px 0;
+    color: #555;
+    position: absolute;
+    bottom: 50px;
+    top: 0px;
+}
+
+.menu-item2 button {
+    background-color: #604484;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    font-family: "Poppins";
+}
+
+.menu-item2 button:hover {
+    background-color: #ac7ceb;
+    color: black;
+}
+
+.menu-item2 .price {
+    font-size: 1rem;
+    font-family: "Poppins";
+    color: #555;
+    margin-top: auto;
+    width: 40%;
+    text-align: left;  
+    position: absolute;
+    bottom: 0px;
+    top: 270px;
+}
+
+.menu-item3 {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px #604484;
+    padding: 10px;
+    text-align: center;
+    width: 179px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 179px;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.menu-item3 img {
+    width: 80%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    align-self: center;
+}
+
+
+.menu-item3 .name h2 {
+    font-family: "Poppins";
+    color: #604484;
+    margin: auto auto auto auto; 
+    width: 100%; 
+    text-align: center;
+    position: absolute; 
+    bottom: 4px;
+    right: 1px;
+    left: 1px;
 }

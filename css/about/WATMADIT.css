@@ -79,17 +79,17 @@ h1.title {
 /* Paragraph Styling */
 p {
     max-width: 900px;
-    margin:  20px auto;
+    margin: 20px auto;
+    padding: 0 20px;
     font-size: 1rem;
     line-height: 1.8;
-    color: #333;
+    color: yellow;
     text-align: justify;
-    background: #f9f9f9;
-    border-radius: 20px;
-    padding: 30px;
-    box-shadow: 0 4px 10px #604484(0, 0, 0, 0.1);
+    background: #6A5ACD;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
-
 /* Add spacing between paragraph breaks */
 p br {
     margin-bottom: 10px;

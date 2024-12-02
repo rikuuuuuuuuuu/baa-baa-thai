@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
 
-
 * {
     margin: 0;
     padding: 0;
@@ -10,7 +9,7 @@
 
 body {
     background: white;
-    color: black;
+    color: yellow; /* Changed text color to yellow */
     overflow-x: hidden;
     margin: 0;
     padding: 0;
@@ -69,31 +68,20 @@ body {
     text-decoration: none;
 }
 
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f9f9f9;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-}
-
 .container {
     width: 90%;
     max-width: 900px;
-    background: white;
+    background: #604484;; /* Changed background color of forms to purple */
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     overflow: hidden;
     text-align: center;
     padding: 20px;
-    margin-top: 100px; /* Added spacing */
+    margin-top: 100px;
 }
 
 h1 {
-    color: #7d3aab;
+    color: #ffdd00; /* Adjusted to match yellow theme */
     font-size: 2rem;
 }
 

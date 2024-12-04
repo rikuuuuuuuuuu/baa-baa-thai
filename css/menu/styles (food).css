@@ -15,7 +15,13 @@ body {
     text-align: center;
     padding: 20px 0;
     margin-bottom: 20px;
-}w
+}
+
+h1 {
+    color: #604484;
+    font-family: "Poppins";
+    text-align: center;
+}
 
 .menu-header h1 {
     margin: 0;
@@ -41,12 +47,13 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 400px;
+    height: 500px;
     position: relative;
 }
 
 .menu-item img {
     width: 100%;
+    height: 65%;
     border-radius: 8px;
     margin-bottom: 10px;
 }
@@ -54,10 +61,20 @@ body {
 .menu-item p {
     font-size: 0.9rem;
     font-family: "Poppins";
-    margin: 10px 0;
     color: #555;
-    position: absolute;
-    bottom: 60px;
+    position: relative;
+    bottom: 200px;
+    top: 1px;
+}
+
+.menu-item .description {
+    font-size: 1rem;
+    font-family: "Poppins";
+    color: #555;
+    text-align: center; 
+    position: relative;
+    width: 100%; 
+    height: 35%;
 }
 
 .menu-item button {
@@ -74,4 +91,15 @@ body {
 .menu-item button:hover {
     background-color: #ac7ceb;
     color: black;
+}
+
+.menu-item .price {
+    font-size: 1rem;
+    font-family: "Poppins";
+    color: #555;
+    margin-top: auto;
+    width: 100%;
+    text-align: left;  
+    position: absolute;
+    bottom: 50px;
 }

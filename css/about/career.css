@@ -9,7 +9,7 @@
 
 body {
     background: white;
-    color: yellow; /* Changed text color to yellow */
+    color: #f8bc4c; 
     overflow-x: hidden;
     margin: 0;
     padding: 0;
@@ -71,7 +71,7 @@ body {
 .container {
     width: 90%;
     max-width: 900px;
-    background: #604484;; /* Changed background color of forms to purple */
+    background: #604484;; 
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     overflow: hidden;
@@ -81,7 +81,7 @@ body {
 }
 
 h1 {
-    color: #ffdd00; /* Adjusted to match yellow theme */
+    color: #ffdd00; 
     font-size: 2rem;
 }
 

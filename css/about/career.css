@@ -71,7 +71,7 @@ body {
 .container {
     width: 90%;
     max-width: 900px;
-    background: #604484;; 
+    background: #604484;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     overflow: hidden;
